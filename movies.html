@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- Anuradha Nokku - 1001236719 -->
+<html lang="en">
+  <head>
+    <style>
+        body {
+        
+        padding-left: 1cm;
+        padding-top: 1cm;
+        padding-right: 2cm;
+        padding-bottom: 1cm;
+        }
+            </style>
+    <title>Display Movie Information</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="movies.js"></script>
+  </head>
+  <body onload="initialize();" background="https://sandbergwallpaper.com/wp-content/uploads/2014/09/526-06_image2.jpg"> 
+
+  <form>
+       <label> <b> MOVIE TITLE:</b> <input type="text" id="form-input"/></label>
+       <input type="button" onclick="sendRequest();" value="Display Info"/>
+    </form> 
+       <p> 
+    <div id="title"></div>
+    
+    <div id="info"></div>
+    <div id="overview"></div>
+    
+    <div id="credits"></div>
+
+    </p>
+  </body>
+</html>
